@@ -1,0 +1,52 @@
+{
+  "name": "mui-personal-template",
+  "version": "0.5.0",
+  "description": "Material UI personal Website Template",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack-dev-server --mode development --open",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit56r/mui-personal-template.git"
+  },
+  "keywords": [
+    "Material",
+    "Ui",
+    "Personal",
+    "Template"
+  ],
+  "author": "Amit Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amit56r/mui-personal-template/issues"
+  },
+  "homepage": "https://github.com/amit56r/mui-personal-template#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "babel-loader": "^8.0.5",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "devDependencies": {
+    "husky": "^2.1.0",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
